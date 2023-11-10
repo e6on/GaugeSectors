@@ -3,7 +3,8 @@
 HADashboard custom gauge widget with 3 custom sectors with high and low value and style colors.
 
 #### gaugesectors
-![Screenshot](/assets/gaugesectors.png)
+![Screenshot](/gaugesectors.png)
+
 A widget to report on numeric values for sensors in Home Assistant in a gauge format.
 
 The gauge has 3 custom sectors with high and low value and style colors. These must be in hex RGB format, and the graph will interpolate the color of the level bar in between sectors. For example:
