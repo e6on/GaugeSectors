@@ -1,0 +1,26 @@
+widget_type: basegaugesectors
+entity: "{{entity}}"
+sector1_color: $gauge_sector1_value_color
+sector1_lo: $gauge_sector1_value_lo
+sector1_hi: $gauge_sector1_value_hi
+sector2_color: $gauge_sector2_value_color
+sector1_lo: $gauge_sector2_value_lo
+sector1_hi: $gauge_sector2_value_hi
+sector3_color: $gauge_sector3_value_color
+sector1_lo: $gauge_sector3_value_lo
+sector1_hi: $gauge_sector3_value_hi
+bgcolor: $gauge_value_bgcolor
+color: $gauge_text_color
+fields:
+  title: "{{title}}"
+  title2: "{{title2}}"
+  unit: ""
+static_css:
+  title_style: $gauge_title_style
+  title2_style: $gauge_title2_style
+  unit_style: ""
+  value_style: ""
+  widget_style: $gauge_widget_style
+css: []
+icons: []
+static_icons: []
