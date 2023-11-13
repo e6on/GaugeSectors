@@ -1,14 +1,15 @@
 # GaugeSectors
 
-HADashboard custom gauge widget with 3 custom sectors with high and low value and style colors.
+HADashboard custom gauge widget with 3 sector-based color representation of the displayed value.
 
 #### gaugesectors
 ![Screenshot](/gaugesectors.png)
 
 A widget to report on numeric values for sensors in Home Assistant in a gauge format.
 
-The gauge has 3 custom sectors with high and low value and style colors. These must be in hex RGB format, and the graph will interpolate the color of the level bar in between sectors. For example:
-
+The gauge has 3 custom sectors with high and low value and style colors. These must be in hex RGB format, and the graph will interpolate the color of the level bar in between sectors.
+For example:
+It means color will stay #FF0000 for all values below 749, "#4CFF00" from 750 up until 760. Take it over 761 and your gauge will glow "#FFD800".
     gauge:
        widget_type: gaugesectors
        title: Pressure
