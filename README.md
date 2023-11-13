@@ -11,7 +11,7 @@ The gauge has 3 custom sectors with high and low value and style colors. These m
 
 For example:
 
-It means color will stay ```#FF0000``` for all values below 749, ```#4CFF00``` from 750 up until 760. Take it over 761 and your gauge will glow ```#FFD800```.
+It means color will stay `#FF0000` for all values below 749, `#4CFF00` from 750 up until 760. Take it over 761 and your gauge will glow `#FFD800`.
 ```
     gauge:
        widget_type: gaugesectors
